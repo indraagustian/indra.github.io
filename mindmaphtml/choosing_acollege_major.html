@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Choosing a College Major","children":[{"content":"&#x1f31f; Meet Sarah","children":[{"content":"Passionate about visual storytelling and drawing","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"Learns best through hands-on projects","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"Introverted and imaginative personality","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"Strong in art and English literature","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"Dreams of working in animation or game design","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"Explored options via webinars","children":[],"payload":{"tag":"li","lines":"17,18"}},{"content":"Narrowed choices to Animation, Multimedia Arts, <br>and Visual Communication Design","children":[],"payload":{"tag":"li","lines":"18,19"}},{"content":"Considered freelance and global flexibility","children":[],"payload":{"tag":"li","lines":"19,20"}},{"content":"Family advised blending with business","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"Took a free course on character design, <br>built a portfolio","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Compared universities based on <br>tools taught (e.g., Adobe Suite, Blender)","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"Final choice: Multimedia Arts major, <br>Creative Entrepreneurship minor","children":[],"payload":{"tag":"li","lines":"23,24"}}],"payload":{"tag":"h2","lines":"11,12"}},{"content":"1. &#x1f3af; Personal Factors","children":[{"content":"Interests","children":[{"content":"Enjoy stargazing, poetry, puzzles, or sketching?","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"Follow what feels fulfilling","children":[],"payload":{"tag":"li","lines":"27,28"}}],"payload":{"tag":"h3","lines":"25,26"}},{"content":"Talents","children":[{"content":"Verbal, numerical, visual strengths","children":[],"payload":{"tag":"li","lines":"29,30"}},{"content":"Natural abilities can guide your direction","children":[],"payload":{"tag":"li","lines":"30,31"}}],"payload":{"tag":"h3","lines":"28,29"}},{"content":"Learning Style","children":[{"content":"Hands-on / Visual / Auditory?","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"Adapt major to how you learn best","children":[],"payload":{"tag":"li","lines":"33,34"}}],"payload":{"tag":"h3","lines":"31,32"}},{"content":"Personality","children":[{"content":"Empathetic &#x2192; Counseling / Psychology","children":[],"payload":{"tag":"li","lines":"35,36"}},{"content":"Analytical &#x2192; Accounting / Law","children":[],"payload":{"tag":"li","lines":"36,38"}}],"payload":{"tag":"h3","lines":"34,35"}}],"payload":{"tag":"h2","lines":"24,25"}},{"content":"2. &#x1f4d8; Academic Factors","children":[{"content":"Subject Strengths","children":[{"content":"Literature &#x2192; Law / Journalism","children":[],"payload":{"tag":"li","lines":"40,41"}},{"content":"Chemistry &#x2192; Pharmacy / Food Science","children":[],"payload":{"tag":"li","lines":"41,42"}}],"payload":{"tag":"h3","lines":"39,40"}},{"content":"Curriculum Preference","children":[{"content":"Theoretical (e.g., Philosophy)","children":[],"payload":{"tag":"li","lines":"43,44"}},{"content":"Practical (e.g., Engineering)","children":[],"payload":{"tag":"li","lines":"44,45"}},{"content":"Studio (e.g., Fine Arts)","children":[],"payload":{"tag":"li","lines":"45,46"}}],"payload":{"tag":"h3","lines":"42,43"}},{"content":"Study Commitment","children":[{"content":"Long-term programs (e.g., Medicine)","children":[],"payload":{"tag":"li","lines":"47,48"}},{"content":"Shorter diplomas or applied degrees","children":[],"payload":{"tag":"li","lines":"48,50"}}],"payload":{"tag":"h3","lines":"46,47"}}],"payload":{"tag":"h2","lines":"38,39"}},{"content":"3. &#x1f4bc; Career Goals","children":[{"content":"Vision &amp; Lifestyle","children":[{"content":"Do you want to build, lead, heal, or teach?","children":[],"payload":{"tag":"li","lines":"52,53"}}],"payload":{"tag":"h3","lines":"51,52"}},{"content":"Industry Trends","children":[{"content":"AI, sustainability, digital economy","children":[],"payload":{"tag":"li","lines":"54,55"}}],"payload":{"tag":"h3","lines":"53,54"}},{"content":"Income vs Fulfillment","children":[{"content":"High pay vs meaningful impact","children":[],"payload":{"tag":"li","lines":"56,57"}}],"payload":{"tag":"h3","lines":"55,56"}},{"content":"Transferable Skills","children":[{"content":"Communication, data literacy, critical thinking","children":[],"payload":{"tag":"li","lines":"58,60"}}],"payload":{"tag":"h3","lines":"57,58"}}],"payload":{"tag":"h2","lines":"50,51"}},{"content":"4. &#x1f30d; Environmental Factors","children":[{"content":"Family &amp; Culture","children":[{"content":"Parental expectations vs personal passion","children":[],"payload":{"tag":"li","lines":"62,63"}}],"payload":{"tag":"h3","lines":"61,62"}},{"content":"Location &amp; Accessibility","children":[{"content":"Nearby campus or online options?","children":[],"payload":{"tag":"li","lines":"64,65"}}],"payload":{"tag":"h3","lines":"63,64"}},{"content":"Finances","children":[{"content":"Scholarships, tuition, cost of living","children":[],"payload":{"tag":"li","lines":"66,67"}}],"payload":{"tag":"h3","lines":"65,66"}},{"content":"Societal Perception","children":[{"content":"Prestige of majors in different communities","children":[],"payload":{"tag":"li","lines":"68,70"}}],"payload":{"tag":"h3","lines":"67,68"}}],"payload":{"tag":"h2","lines":"60,61"}},{"content":"5. &#x1f9ed; Decision Strategies","children":[{"content":"Research webinars, talk to alumni","children":[],"payload":{"tag":"li","lines":"71,72"}},{"content":"Compare top 2&#x2013;3 options","children":[],"payload":{"tag":"li","lines":"72,73"}},{"content":"Try online courses (MOOCs)","children":[],"payload":{"tag":"li","lines":"73,74"}},{"content":"Ask: Will this grow with me?","children":[],"payload":{"tag":"li","lines":"74,76"}}],"payload":{"tag":"h2","lines":"70,71"}},{"content":"&#x1f9e0; Conclusion","children":[{"content":"Align education with curiosity and purpose","children":[],"payload":{"tag":"li","lines":"77,78"}},{"content":"Be informed, explore deeply, trust your journey","children":[],"payload":{"tag":"li","lines":"78,79"}}],"payload":{"tag":"h2","lines":"76,77"}}],"payload":{"tag":"h1","lines":"9,10"}},{"colorFreezeLevel":0,"initialExpandLevel":1,"activeNode":{"placement":"center"}})</script>
+</body>
+</html>
